@@ -1,0 +1,23 @@
+{
+  "name": "hammed-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website for Hammed A. Akande - Prompt AI Engineer",
+  "main": "index.html",
+  "scripts": {
+    "dev": "http-server . -p 3000 -o",
+    "start": "http-server . -p 3000",
+    "build": "echo 'Static site - no build step required'"
+  },
+  "keywords": [
+    "portfolio",
+    "ai-engineer",
+    "prompt-engineering",
+    "data-science",
+    "machine-learning"
+  ],
+  "author": "Hammed A. Akande",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
