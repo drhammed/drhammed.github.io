@@ -203,10 +203,10 @@ window.addEventListener('load', () => {
     const typingElement = document.querySelector('.typing-text');
     if (typingElement) {
         const texts = [
-            'Prompt AI Engineer',
-            'Data Scientist',
+            'AI Engineer',
+            'Prompt Engineer',
             'Machine Learning Developer',
-            'LLM Specialist'
+            'Data Scientist'
         ];
         typeWriter(typingElement, texts, 150, 75, 2000);
     }
